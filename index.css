@@ -12,7 +12,7 @@
 }
 
 #header img {
-    width: 140px;
+    width: 90px;
 }
 
 #main .carousel-inner img {
@@ -23,6 +23,7 @@
 
 #carousel {
     position: relative;
+    margin-top: 79px;
 }
 
 #carousel .overlay {
@@ -38,6 +39,15 @@
 
 .badges {
     text-align: right;
+}
+
+#design {
+    background-color: #212529!important;
+    color: white;
+}
+
+#design img {
+    max-width: 100%;
 }
 
 #footer {
