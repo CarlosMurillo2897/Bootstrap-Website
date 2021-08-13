@@ -23,9 +23,8 @@
                     Software Services
                 </span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar">
@@ -43,7 +42,8 @@
                         <a class="nav-link" href="#partOf">Become part of our Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-highlight" href="#">Buy Tickets</a>
+                        <a class="nav-link text-highlight" href="#" data-bs-toggle="modal"
+                            data-bs-target="#buyModal">Buy Tickets</a>
                     </li>
                 </ul>
             </div>
@@ -82,7 +82,8 @@
                                 to Project Delivery. All built with TOP technologies, on time and money-saving.
                             </p>
                             <a href="#" class="btn btn-outline-light">Want to be part of Team</a>
-                            <button type="button" class="btn btn-highlight">Buy Tickets</button>
+                            <button type="button" class="btn btn-highlight" data-bs-toggle="modal"
+                                data-bs-target="#buyModal">Buy Tickets</button>
                         </div>
                     </div>
                 </div>
@@ -188,7 +189,8 @@
                         and experience from product, packaging, and retail environment to the clothing and attitude of
                         employees. Experience design seeks to develop the experience of a product, service, or event.
                     </p>
-                    <a href="https://en.wikipedia.org/wiki/User_experience_design" class="btn btn-outline-light">Read more..</a>
+                    <a href="https://en.wikipedia.org/wiki/User_experience_design" class="btn btn-outline-light">Read
+                        more..</a>
                 </div>
             </div>
         </div>
@@ -208,7 +210,8 @@
             <div class="row">
                 <div class="col text-center">
                     Apply to be part of our Team
-                    Tell us about your <abbr data-bs-toggle="tooltip" data-bs-placement="top" title="BackGround Experience">BG</abbr>.
+                    Tell us about your <abbr data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="BackGround Experience">BG</abbr>.
                 </div>
             </div>
             <div class="row">
@@ -269,17 +272,50 @@
         </div>
     </footer>
     <!-- /Footer -->
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
+    <!-- Modal -->
+    <div class="modal fade" id="buyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Buy Tickets</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-warning" role="alert">
+                        You will receive a confirmation e-mail.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-highlight">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Modal -->
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
