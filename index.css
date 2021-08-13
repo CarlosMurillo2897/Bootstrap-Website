@@ -12,7 +12,7 @@
 }
 
 #header img {
-    width: 140px;
+    width: 90px;
 }
 
 #main .carousel-inner img {
@@ -23,6 +23,7 @@
 
 #carousel {
     position: relative;
+    margin-top: 79px;
 }
 
 #carousel .overlay {
@@ -40,12 +41,12 @@
     text-align: right;
 }
 
-#place-time {
+#placeTime {
     background-color: #212529!important;
     color: white;
 }
 
-#place-time img {
+#placeTime img {
     max-width: 100%;
 }
 

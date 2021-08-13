@@ -13,9 +13,9 @@
     <title>Software Development Services</title>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
     <!-- Header -->
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/Web-Development.png" alt="WebPage Logo">
@@ -24,23 +24,23 @@
                 </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Conference</a>
+                        <a class="nav-link" aria-current="page" href="#main">Conference</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Teams</a>
+                        <a class="nav-link" href="#speakers">Teams</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Place & Date</a>
+                        <a class="nav-link" href="#placeTime">Place & Date</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Become part of our Team</a>
+                        <a class="nav-link" href="#partOf">Become part of our Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-highlight" href="#">Buy Tickets</a>
@@ -168,7 +168,7 @@
     <!-- /Speakers -->
 
     <!-- Place & Date -->
-    <section id="place-time">
+    <section id="placeTime">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-6 px-0">
@@ -197,7 +197,7 @@
     <!-- /Place & Date -->
 
     <!-- Be Part of -->
-    <section id="be-part" class="py-3">
+    <section id="partOf" class="py-3">
         <div class="container">
             <div class="row">
                 <div class="col text-uppercase text-center">
@@ -226,14 +226,14 @@
                             <div class="form-label col">
                                 <textarea name="text" class="form-control form-control-lg"
                                     placeholder="What's your BackGround & Experience?"></textarea>
-                                <small class="form-text text-muted">
+                                <small class="text-muted">
                                     Remind including a title for your BackGround/Experience.
                                 </small>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col d-grid gap-2">
-                                <button type="button" class="btn btn-highlight btn-block">Submit</button>
+                                <button type="button" class="btn btn-highlight">Submit</button>
                             </div>
                         </div>
                     </form>
