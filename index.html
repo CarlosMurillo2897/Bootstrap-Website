@@ -30,20 +30,20 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#main">Conference</a>
+                        <a class="nav-link active" aria-current="page" href="#main">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#speakers">Teams</a>
+                        <a class="nav-link" href="#Team">Our Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#placeTime">Place & Date</a>
+                        <a class="nav-link" href="#design">UI/UX Design</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#partOf">Become part of our Team</a>
+                        <a class="nav-link" href="#contactUS">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-highlight" href="#" data-bs-toggle="modal"
-                            data-bs-target="#buyModal">Buy Tickets</a>
+                            data-bs-target="#contactUsModal">Work with us</a>
                     </li>
                 </ul>
             </div>
@@ -81,9 +81,9 @@
                                 Unitaries Tests to Quality and Assurance and Solution Deployment
                                 to Project Delivery. All built with TOP technologies, on time and money-saving.
                             </p>
-                            <a href="#" class="btn btn-outline-light">Want to be part of Team</a>
+                            <a href="#contactUS" class="btn btn-outline-light">Let's talk</a>
                             <button type="button" class="btn btn-highlight" data-bs-toggle="modal"
-                                data-bs-target="#buyModal">Buy Tickets</button>
+                                data-bs-target="#contactUsModal">Work with us</button>
                         </div>
                     </div>
                 </div>
@@ -92,13 +92,13 @@
     </main>
     <!-- /Main -->
 
-    <!-- Speakers -->
-    <section id="speakers" class="mt-4">
+    <!-- Team -->
+    <section id="Team" class="mt-4">
         <div class="container">
             <div class="row">
                 <div class="col text-center text-uppercase">
                     <small>Know the </small>
-                    <h2>Teammates</h2>
+                    <h2>Team</h2>
                 </div>
             </div>
             <div class="row">
@@ -166,10 +166,10 @@
             </div>
         </div>
     </section>
-    <!-- /Speakers -->
+    <!-- /Team -->
 
-    <!-- Place & Date -->
-    <section id="placeTime">
+    <!-- UI Design -->
+    <section id="design">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-6 px-0">
@@ -196,22 +196,21 @@
         </div>
         </div>
     </section>
-    <!-- /Place & Date -->
+    <!-- /UI Design -->
 
-    <!-- Be Part of -->
-    <section id="partOf" class="py-3">
+    <!-- Contact US -->
+    <section id="contactUS" class="py-3">
         <div class="container">
             <div class="row">
                 <div class="col text-uppercase text-center">
-                    <small>Become part of</small>
-                    <h2>Team</h2>
+                    <small>Let's discuss about your</small>
+                    <h2>project</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col text-center">
-                    Apply to be part of our Team
-                    Tell us about your <abbr data-bs-toggle="tooltip" data-bs-placement="top"
-                        title="BackGround Experience">BG</abbr>.
+                    We can assist/guide/create your <abbr data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="Project/Application/Solution">idea</abbr>.
                 </div>
             </div>
             <div class="row">
@@ -219,18 +218,18 @@
                     <form>
                         <div class="row g-2">
                             <div class="form-label col-12 col-md-6">
-                                <input type="text" class="form-control" placeholder="First name" />
+                                <input type="text" class="form-control" placeholder="E-mail" />
                             </div>
                             <div class="form-label col-12 col-md-6">
-                                <input type="text" class="form-control" placeholder="Last name" />
+                                <input type="text" class="form-control" placeholder="Full name" />
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-label col">
                                 <textarea name="text" class="form-control form-control-lg"
-                                    placeholder="What's your BackGround & Experience?"></textarea>
+                                    placeholder="Tell us about your idea, project, design."></textarea>
                                 <small class="text-muted">
-                                    Remind including a title for your BackGround/Experience.
+                                    You can write multiple mail address splitted by ';' .
                                 </small>
                             </div>
                         </div>
@@ -244,7 +243,7 @@
             </div>
         </div>
     </section>
-    <!-- /Be Part of -->
+    <!-- /Contact US -->
 
     <!-- Footer -->
     <footer id="footer" class="pb-4 pt-4">
@@ -257,10 +256,10 @@
                     <a href="#">Contact us</a>
                 </div>
                 <div class="col-12 col-lg-2">
-                    <a href="#">Press</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#contactUsModal">Work with us</a>
                 </div>
                 <div class="col-12 col-lg-2">
-                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Portfolio</a>
                 </div>
                 <div class="col-12 col-lg-2">
                     <a href="#">Privacy</a>
@@ -274,11 +273,11 @@
     <!-- /Footer -->
 
     <!-- Modal -->
-    <div class="modal fade" id="buyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="contactUsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Buy Tickets</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Work with us</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -287,14 +286,14 @@
                             <div class="col">
                                 <div class="input-group mb-3">
                                     <span class="input-group-text" id="basic-addon1">@</span>
-                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                                    <input type="text" class="form-control" placeholder="E-mail" aria-label="Email"
                                         aria-describedby="basic-addon1">
                                 </div>
                             </div>
                         </div>
                     </form>
                     <div class="alert alert-warning" role="alert">
-                        You will receive a confirmation e-mail.
+                        Leave us your e-mail and we will contact you soon.
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -305,22 +304,10 @@
         </div>
         <!-- /Modal -->
 
-        <!-- Optional JavaScript; choose one of the two! -->
-
-        <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
         <script src="./index.js"></script>
-
-        <!-- Option 2: Separate Popper and Bootstrap JS -->
-
-        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script> -->
 
 </body>
 
